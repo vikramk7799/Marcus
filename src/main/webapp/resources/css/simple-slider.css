@@ -1,0 +1,139 @@
+/* 1. smartphones, iPhone, portrait 480x320 phones */
+
+@media (min-width:319px)
+{
+    .slider {
+        width: 70%;
+        align-self: center;
+    }
+
+}
+
+/* 2. portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+@media (min-width:481px)
+{
+    .slider {
+        width: 70%;
+        align-self: center;
+    }
+}
+
+/* 3. portrait tablets, portrait iPad etc */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+{
+    .slider {
+        width: 70%;
+        align-self: center;
+    }
+}
+
+/* 3. landscape tablets, landscape iPad etc */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{
+    .slider {
+        width: 70%;
+        align-self: center;
+    }
+}
+
+
+
+
+
+/* 4. HD laptops and desktops */
+
+@media (min-width:961px)
+{
+    .slider {
+        width: 80%;
+        align-self: center;
+    } 	
+}
+
+/* 5. FHD display */
+
+@media only screen and (min-width : 1824px)
+{
+    .slider {
+        width: 95%;
+        align-self: center;
+    } 
+}
+
+/* 6. 4K and larger displays*/
+
+@media only screen and (min-width : 1920px)
+{
+    .slider {
+        width: 100%;
+        align-self: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    } 
+}
+
+@media (min-width: 992px)
+{
+.vco {
+    width: 97%;
+    align-self: center;
+}
+}
+/* ******* End of MediaQueries ****** */
+
+
+
+.slider > .dragger {
+    background: #0066cc;
+    background: -webkit-linear-gradient(top, #4C69AB, #4C69AB);
+    background: -moz-linear-gradient(top, #4C69AB, #4C69AB);
+    background: linear-gradient(top, #4C69AB, #4C69AB);
+
+    -webkit-box-shadow: inset 0 2px 2px rgba(255,255,255,0.5), 0 2px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 2px 2px rgba(255,255,255,0.5), 0 2px 8px rgba(0,0,0,0.2);
+    box-shadow: inset 0 2px 2px rgba(255,255,255,0.5), 0 2px 8px rgba(0,0,0,0.2);
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    border: 1px solid #ebebeb;
+    width: 16px;
+    height: 26px;
+}
+
+.slider > .dragger:hover {
+    background: -webkit-linear-gradient(top, #4C69AB, #4C69AB);
+}
+
+
+.slider > .track, .slider > .highlight-track {
+    background: #ebebeb;
+    background: -webkit-linear-gradient(top, #ebebeb, #ebebeb);
+    background: -moz-linear-gradient(top, #ebebeb, #ebebeb);
+    background: linear-gradient(top, #ebebeb, #ebebeb);
+
+    -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    border: 2px #cccccc solid;
+    height: 4px;
+}
+
+.slider > .highlight-track {
+    background-color: #ebebeb;
+    background: -webkit-linear-gradient(top, #ebebeb, #ebebeb);
+    background: -moz-linear-gradient(top, #ebebeb, #ebebeb);
+    background: linear-gradient(top, #ebebeb, #ebebeb);
+
+    border-color: #ebebeb;
+}
+
